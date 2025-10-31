@@ -1,0 +1,24 @@
+TARGET_Envanter_Web/
+├── Controllers/
+│   ├── HomeController.cs
+│   ├── LoginController.cs
+│   ├── ReportsController.cs
+│   └── AdminController.cs
+│
+├── Models/
+│   ├── Cihaz.cs
+│   ├── Kullanici.cs
+│   └── Sirket.cs
+│
+├── Views/
+│   ├── Login/Index.cshtml
+│   ├── Home/Dashboard.cshtml
+│   ├── Reports/Index.cshtml
+│   ├── Admin/Index.cshtml
+│   └── Shared/_Layout.cshtml
+│
+├── App_Start/
+│   └── RouteConfig.cs
+│
+├── Web.config
+└── Global.asax
